@@ -1,0 +1,27 @@
+table {
+  width: 100%;
+}
+.user-heading {
+  margin-left: 22px;
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.mat-header-cell {
+  background: #00a99d;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+.add-section {
+  margin-left: 10px;
+  .user-icon {
+    color: #00a99d;
+  }
+}
+.table-icon{
+  margin-left: 20px;
+  color: #00a99d;
+  font-size: 18px;
+  cursor: pointer;
+}

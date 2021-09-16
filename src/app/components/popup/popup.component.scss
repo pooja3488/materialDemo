@@ -1,0 +1,17 @@
+.mat-form-field {
+  width: 100%;
+}
+.mat-radio-button ~ .mat-radio-button {
+  margin-left: 16px;
+}
+
+.cdk-overlay-pane.my-dialog {
+  position: relative !important;
+}
+.close {
+  float: right;
+  color: #00a99d;
+}
+.gender-section {
+  margin-bottom: 10px;
+}

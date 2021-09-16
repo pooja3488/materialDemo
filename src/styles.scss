@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.mat-progress-bar-fill::after {
+    background-color: #00a99d;
+}
+.mat-toolbar-single-row {
+    justify-content: center;
+}
+.mat-form-field-outline.mat-form-field-outline-thick,
+.mat-form-field.mat-focused .mat-form-field-label,
+.mat-form-field.mat-focused .mat-select-value {
+    color: #00a99d !important;
+}
+.mat-radio-button.mat-accent .mat-radio-inner-circle,
+.mat-radio-button.mat-accent .mat-radio-ripple .mat-ripple-element:not(.mat-radio-persistent-ripple),
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-persistent-ripple,
+.mat-radio-button.mat-accent:active .mat-radio-persistent-ripple,
+.mat-flat-button.mat-primary,
+.mat-checkbox-checked:not(.mat-checkbox-disabled).mat-accent .mat-ripple-element,
+.mat-checkbox:active:not(.mat-checkbox-disabled).mat-accent .mat-ripple-element {
+    background-color: #00a99d;
+}
+.mat-radio-container {
+    margin-left: 10px;
+}
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
+    border-color: #00a99d;
+}
+.mat-checkbox-checkmark-path {
+    stroke: #00a99d !important;
+}
+.mat-checkbox-indeterminate.mat-accent .mat-checkbox-background,
+.mat-checkbox-checked.mat-accent .mat-checkbox-background {
+    background-color: #fff;
+}
+.mat-checkbox-checkmark {
+    fill: #000 !important;
+}
+.mat-typography p {
+    margin: 12px 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+.edit-box {
+    display: inline-block !important;
+}
+.progress-bar {
+    font-weight: 600;
+    color: #00a99d;
+}
